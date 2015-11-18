@@ -1,0 +1,190 @@
+= Reading & Writing: Our Link to the Past. Our Key to the Future.
+:docinfo: private-head
+:nofooter:
+:icons: font
+ifdef::env-browser[:toc: macro]
+
+ifdef::backend-pdf[]
+[abstract]
+--
+include::../../README.adoc[tag=abstract]
+--
+
+<<<
+endif::[]
+
+ifeval::["{toc-placement}" == "macro"]
+toc::[]
+endif::[]
+
+== Title Slide
+
+Data written in books a 1,000 years ago are still readable.
+What about the data we are creating now?
+Will it be accessible in 20 years time?
+1,000 years time?
+If so, how will we create it?
+How will we consume it?
+
+These are the questions we're going to contemplate here today.
+
+== IT
+
+"To the computer, text is an abstract entity – a stream of 0s and 1s. As a writer, of course, the meaning is everything. The information we want to represent is intimately linked to how it is stored."
+-- Aditya Mukerjee
+
+The preservation and transfer of information is arguably the most important topic to civilization.
+That's where we come in.
+
+== Information Technology
+
+Information is the “I” in IT.
+We could very well be its stewards, so it's vital that we call attention to it and treat it responsibly.
+
+== Emoji Dick
+
+Does our choice of communication method enhance or deteriorate our ability and effectiveness to communite?
+In 20 years, will we all be communicating in Mandarin, English or Emoji?
+Will plain text formats be king or will we still be wrestling with WYSIWYG editors?
+
+In order to understand how to predict the future, we must understand our past and how we're connected to it.
+
+== Chauvet Cave Horses
+
+//It's right here in France that...
+We're connected by information to some of our earliest ancestors at Chauvet Cave in France, 30,000 years ago.
+
+The people who resided in Chauvet Cave have long since perished and hardly (if any) any remains of their bodies remain.
+What does remain is the information they captured and shared.
+We can see their world not through their eyes, but *through their media and the information it portrays*.
+Information serves as a liaison between their lives and ours.
+
+What's important about these paintings is that they share information in a format that is instantly recognizable to use, pictures.
+Then again, it was locked in a cave for 30,000 years, so we were ignorant of their lives and experiences until it was discovered.
+
+== Chauvet Cave Hand
+
+When we see the prints of hands in the cave, we feel something.
+Writing is powerful and timeless communication.
+Your audience will feel it too.
+They will sense your presence in what you say.
+*It can be there to connect with others when you can't.*
+
+////
+There is something deeply moving about the hand because we truly sense the life behind it...reaching out to us.
+Information has life.
+_Our goal with technology is to give that voice a medium, to amplify it, to make it more interactive, to connect the reader with the author and vice versa._
+////
+
+== Stylewriter Closed
+
+When I was in high school, the printer was my share button.
+
+== Stylewriter Open
+
+Actually, it looked more like this when fully expanded.
+
+== Typewriter Flyer
+
+Even today, we still see the computer as a more sophisticated typewriter.
+
+"We enjoy the benefits of the typewriter without any of its limitations."
+-- Matthew Butterick
+
+== Cost of Web Publishing
+
+What's different now is the web.
+We share over the internet, a lot.
+
+"The costs of web publishing have declined to almost zero."
+-- Matthew Butterick
+
+GitHub Pages, and services like it, make it possible for anyone to be a publisher without even worrying about hosting.
+“Push to publish.”
+
+== Printed Books Demise
+
+Matthew Butterick, author of Practical Typography, proposes the idea that the web is all we need for publishing.
+
+"Printed books are on their way out. What will replace them? We get to choose. We get to vote with our time, our wallets, and our attention. We can choose a world of digital books controlled by a handful of technology behemoths, who determine what gets sold, how you get to read it, and what you pay for it. Or we can choose the web, where writers get to publish what they want, readers get to read what they want, and they can work out together how to pay for it."
+-- Matthew Butterick
+
+== Adapt or Die
+
+Karen McGrane reminds us that the days of the single channel (read as "device") for delivering content (spanning news to documentation) have passed.
+Information must be responsive, it must be adaptable.
+Separating content from presentation, and weaving meaning into that content with metadata, is more essential than ever before.
+
+The web works because it's open, but also because it's reflowable.
+_Readers will not settle for less than what they can get on the web, and likely more._
+And we should be able to give that to them.
+_Content should not be bound to a spine._
+
+But what about PDF?
+
+"PDF is fundamentally a digital simulation of paper. It removes functionality and imposes design constraints. It's a backward-looking format that wants to impose yesterday’s constraints on today’s projects."
+-- Matthew Butterick
+
+As a book writer, can only make 20 edits per chapter; imagine saying to a developer you can only make 20 changes, then you've exceeded your quota of changes
+
+"Institutions will try to preserve the problem to which they are the solution."
+-- Shirky Principle
+
+== Collaboration
+
+We've come a long way from computer as typewriter (aka word processor) as we now share the documents electronically.
+In fact, just about everything we've grown up viewing in futuristic novels, movies, and television shows has become, is becoming or fell short of todays reality.
+
+But the computer into which we are inputing the long-form content is still stuck on the desk (or in our laps).
+Let's lift it off the desk as we look into the future and imagine where it will end up.
+
+Writing on a tablet?
+Writing on a phone?
+Our wrist?
+A tv?
+A spacial operating environment?
+Holographic displays?
+Dictating?
+
+Maybe in 20 years we don't type as much as we talk to the computer.
+Nicholas Negroponte http://www.ted.com/talks/nicholas_negroponte_a_30_year_history_of_the_future[predicted] in a TED talk last year that in 30 years we would ingest knowledge instead of reading it.
+Swallow a pill and learn Shakespeake.
+I sure wish I could do that to learn French.
+
+We are also still typing most documents alone.
+Maybe the future, even the present, holds a way of reading and writing that is more collaborative.
+
+"As an author, I have an incentive to be steadily revisiting and revising the material. The book is a living thing."
+-- Matthew Butterick
+
+Will we blur the lines of writing a personal document that is shared to something more like wikipedia where we edit a shared document?
+Will there (finally) be a GitHub for Writers?
+What if authors had writing tools as powerful as those used by coders?
+
+The key to a better reading experience is a better writing experience.
+We need to empower the writer.
+Writers should be able to use higher level abstractions--writing components--that produce richer and more interactive output.
+Imagine an IDE for writers.
+This is the audience that needs to recognize and solve this technology problem.
+
+== Tower of Babel
+
+"Language...is the gateway to accessing life and society itself."
+-- Aditya Mukerjee
+
+John McWhorter recently suggested in an article in the Wall Street Journal that by 2115, less than 600 languages would be left on the planet (down an order of magnitude from today).
+Don't worry, French will make the cut ;)
+
+"Whatever path we take, it’s imperative that the writing system of the 21st century be driven by the needs of the people using it."
+-- Aditya Mukerjee
+
+== Think
+
+Regardless of what reading and writing will be in 20 years (or even 1000), we know one thing for sure.
+We're going to play a vital role in its evolution and thus future.
+
+"If we treat limitations as something to obey--not over­come--we'll just become indentured to whoever controls that technology."
+-- Matthew Butterick
+
+Think broadly.
+Think openly.

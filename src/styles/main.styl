@@ -1,0 +1,140 @@
+@import './fonts.css'
+@import 'normalizecss/normalize.css'
+@import './bespoke-base'
+
+$color-white-0 = #fff
+$color-black-0 = #000
+$color-black-1 = #111
+//$color-orange-1 = #dc9e2e
+$color-orange-1 = #e37b00
+$color-cyan-1 = #3adee6
+$color-brown-1 = #633600
+
+body
+  font-family: "Source Sans Pro", sans-serif
+  font-size: 16px
+
+h1, h2, h3
+  font-family: Aldrich, sans-serif
+  font-weight: 400
+  margin: 0
+  color: $color-black-1
+  line-height: 1.2
+  text-transform: uppercase
+  word-wrap: break-word
+  strong
+    font-weight: 400
+    //color: #d77933
+    color: $color-orange-1
+
+// Augmented Fourth scale
+h1
+  font-size: 2.827em
+
+h2
+  font-size: 1.999em
+
+h3
+  font-size: 1.414em
+
+article.deck
+  //font-size: 2.25rem
+  //color: $color-white-0
+  background-color: $color-black-0
+
+section
+  background-color: $color-white-0
+  //background-color: $color-black-1
+  //h1, h2
+  //  font-size: 3rem
+  //  font-weight: 900
+  //  text-align: center
+  //  text-shadow: 0 0 6px rgba(0, 0, 0, 0.2)
+  &.title
+    //background-image: url(../images/monk-writing.jpg)
+    background-color: $color-black-1
+    background-size: cover
+    background-repeat: no-repeat
+    h1
+      //color: $color-orange-1
+      color: $color-cyan-1
+      //text-shadow: 2px 0 1px rgba(0, 0, 0, 0.1)
+    h3
+      color: $color-white-0
+      line-height: 1.5
+      text-align: center
+      margin-top: 0.2em
+      span
+        display: block
+        &.line-2
+          font-size: 1.2em
+  &.poster
+    &:not(.invert)
+      background-color: $color-black-0
+    img
+      max-width: 100%
+      max-height: 100%
+    // fix scaling in Firefox
+    display: block
+    img
+      position: relative
+      top: 50%
+      left: 50%
+      transform: translateX(-50%) translateY(-50%)
+
+p.author
+  display: none
+  //font-weight: 300
+  margin: 0
+  height: 0
+  position: relative
+  top: 2.5em
+
+p.small
+  font-size: 0.9em
+  margin: 0
+  //font-weight: 300
+
+h2.mask
+  position: absolute
+  top: 15%
+  z-index: 1
+  background-color: rgba(0, 0, 0, 0.75)
+  color: $color-white-0
+  line-height: 1
+  margin: 0
+  padding: 0.5em 1.75em 0.25em 1.75em
+  text-align: right
+  width: 100%
+
+blockquote
+  text-align: center
+  p
+    font-style: italic
+    font-size: 2rem
+    line-height: 1.2
+    word-spacing: 0.25ex
+    letter-spacing: -0.025ex
+    margin: 0 0 1rem 0
+  p::before,
+  p::after
+    font-size: 1.1em
+    line-height: 0.8em
+    //color: #d77933
+    color: $color-orange-1
+  p::before
+    content: '“'
+  p::after
+    content: '”'
+  footer
+    font-size: 0.85em
+  footer::before
+    content: '— '
+
+section.fin
+  //background-image: url(../images/automated-hand-writing.jpg)
+  background-color: $color-black-1
+  background-size: cover
+  background-repeat: no-repeat
+  h2
+    color: $color-orange-1

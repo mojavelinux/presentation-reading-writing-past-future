@@ -1,0 +1,58 @@
+= Reading & Writing: Our Link to the Past. Our Key to the Future.
+Dan Allen <http://opendevise.io>
+:track: Future<Devoxx>
+
+[abstract]
+--
+//tag::abstract[]
+Information is the “I” in IT.
+Arguably, it's the most important topic in human civilization.
+
+Data written in books a 1,000 years ago are still readable.
+What about the data we're creating now?
+Will it be accessible in 20 years time?
+1,000 years time?
+If so, how will we create it?
+How will we consume it?
+Will we all be communicating in Mandarin, English or Emoji?
+Will plain text formats be king or will we still be fighting with WYSIWYG editors?
+
+What was reading and writing like in the past?
+What's reading and writing going to be like in the future?
+These are the questions we're going to contemplate today.
+The fate of civilization could be in our hands...or rather, our editors.
+//end::abstract[]
+--
+
+////
+== View online
+
+...[Video]
+&middot;
+http://mojavelinux.github.io/presentation-reading-writing-past-future/index.html[Slides]
+&middot;
+http://mojavelinux.github.io/presentation-reading-writing-past-future/transcript.html[Transcript]
+////
+
+== View locally
+
+This deck is a http://markdalgleish.com/projects/bespoke.js[Bespoke.js] presentation.
+To run it, first ensure you have the following installed:
+
+. http://nodejs.org[Node.js]
+. http://bower.io[Bower]:
+
+ $ npm install -g bower
+
+. http://gulpjs.com[Gulp]:
+
+ $ npm install -g gulp
+
+Then, install dependencies and run the preview server:
+
+```bash
+$ npm install && bower install
+$ gulp serve
+```
+
+Finally, visit \http://localhost:8080 in your browser.
